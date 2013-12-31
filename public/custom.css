@@ -1,0 +1,78 @@
+.navbar-default {
+  background-color: #ef3123; 
+  border: none;
+}
+.navbar {
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+}
+.navbar-brand {
+	padding: 5px 15px;
+}
+header {
+	background-color: #ef3123;
+}
+img {
+	position: relative;
+}
+#enviar {
+	width:66px;
+	height: 26px;
+	background-image:url("botonEnviar.jpg");
+	display: inline-block;
+	position:relative;
+	top: 8px;
+}
+footer form {
+	font-size: 18px;
+}
+footer {
+	min-height: 128px;
+	background-color: #ef3123;
+	color: white;
+	text-align: center;
+	padding-top:18px;
+}
+footer.row {
+	margin: 0px;
+}
+footer nav {
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+footer nav span{
+	font-size: 16px;
+}
+footer input{
+	width: 255px;
+	height: 26px;
+}
+#container {
+	text-align: center;
+}
+#slider {
+	overflow:hidden;
+	position: relative;
+	top: -20px;
+	margin:auto;
+}
+
+@media (min-width: 992px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
